@@ -1,0 +1,23 @@
+.toolbox-container {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.list > li {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 1em;
+  background-color: gray;
+}
+
+.list > li:hover {
+  background-color: #5d9a9a;
+}
